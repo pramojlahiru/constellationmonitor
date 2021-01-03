@@ -13,8 +13,8 @@ spec:
         app: demo
     spec:
       containers:
-        - name: mywebapp
-          image: pramojlahiru/mywebapp
+        - name: constellationmonitor
+          image: pramojlahiru/constellationmonitor
           ports:
             - containerPort: 8080
 
