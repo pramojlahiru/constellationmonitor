@@ -10,6 +10,7 @@ package com.spacex.starlink.constellationmonitor.controller;
 import com.spacex.starlink.constellationmonitor.model.ConstellationAssign;
 import com.spacex.starlink.constellationmonitor.service.ConstellationMonitorService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,7 +24,7 @@ public class ConstellationmonitorController {
     @Autowired
     ConstellationMonitorService constellationMonitorService;
 
-    @PostMapping(value = "/fetch")
+    @GetMapping(value = "/fetch")
     public List<ConstellationAssign> fetchConstellations() {
         return constellationMonitorService.fetchConstellations();
     }
