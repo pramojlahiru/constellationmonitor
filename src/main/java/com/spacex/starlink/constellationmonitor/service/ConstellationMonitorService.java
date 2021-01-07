@@ -33,7 +33,7 @@ public class ConstellationMonitorService {
 
         ConstellationAssign ca2 = new ConstellationAssign();
         ca2.setConstellationAssignId(2l);
-        ca2.setSatelliteId(11l);
+        ca2.setSatelliteId(111l);
         ca2.setLatitude(7654321d);
         ca2.setLongitude(8765432d);
         constellationAssignList.add(ca2);
