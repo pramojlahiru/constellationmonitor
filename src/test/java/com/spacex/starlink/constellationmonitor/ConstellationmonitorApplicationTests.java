@@ -1,13 +1,13 @@
-//package com.spacex.starlink.constellationmonitor;
+package com.spacex.starlink.constellationmonitor;
 
-//import org.junit.jupiter.api.Test;
-//import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-//@SpringBootTest
-//class ConstellationmonitorApplicationTests {
+@SpringBootTest
+class ConstellationmonitorApplicationTests {
 
-//    @Test
-//    void contextLoads() {
-//    }
+    @Test
+    void contextLoads() {
+    }
 
-//}
+}
